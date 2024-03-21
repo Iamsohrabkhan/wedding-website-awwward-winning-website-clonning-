@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
       <NextSeo
         title="Elena's Gallery"
         description="Elena, an Italian wedding photographer, skillfully intertwines raw emotions with mesmerizing landscapes in her captivating photography"
-        canonical="https://www.canonical.ie/"
+        canonical="https://wedding-tempalate-mu.vercel.app/"
         openGraph={{
           url: "/opengraph-image.png",
           title: "Capturing Raw Emotions Against Captivating Landscapes",
@@ -34,14 +34,14 @@ export default function App({ Component, pageProps }) {
               width: 800,
               height: 600,
               alt: "Og Image Alt",
-              type: "image/jpeg",
+              type: "image/png",
             },
             {
               url: "opengraph-image.png",
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
-              type: "image/jpeg",
+              type: "image/png",
             },
             { url: "opengraph-image.png" },
             { url: "opengraph-image.png" },
