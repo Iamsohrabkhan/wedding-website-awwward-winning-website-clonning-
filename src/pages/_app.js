@@ -4,7 +4,7 @@ import TailwindIndicator from "@/components/TailwindIndicator";
 import "@/styles/globals.css";
 import { Lora } from "next/font/google";
 import Preloader from "@/components/preloader";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import { DataProvider } from "@/App-Context/datafilter";
 import localFont from "next/font/local";
 import { NextSeo } from "next-seo";
@@ -27,7 +27,8 @@ export default function App({ Component, pageProps }) {
         openGraph={{
           url: "https://i.ibb.co/P9541VY/opengraph-image.png",
           title: "Capturing Raw Emotions Against Captivating Landscapes",
-          description: "Discover the magic of Elena's Italian wedding photography, where raw emotions meet captivating landscapes, creating timeless memories.",
+          description:
+            "Discover the magic of Elena's Italian wedding photography, where raw emotions meet captivating landscapes, creating timeless memories.",
           images: [
             {
               url: "https://i.ibb.co/P9541VY/opengraph-image.png",
@@ -72,42 +73,10 @@ export default function App({ Component, pageProps }) {
 const Main = ({ Component, pageProps }) => {
   const { isLoading } = useAppContext();
 
-  const [allImagesReady, setAllImagesReady] = useState(true);
-
-  // Function to load images asynchronously
-  const loadImages = async () => {
-    // Code to load images goes here
-    // For example:
-
-    const imagePromises = LoaderImagesSrc.map((imageUrl) => {
-      console.log("🚀 ~ imagePromises ~ imageUrl:", imageUrl);
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        img.onload = () => resolve();
-        img.onerror = () => reject();
-        img.src = imageUrl;
-      });
-    });
-      console.log("🚀 ~ imagePromises ~ imageUrl:", imageUrl)
-
-    try {
-      await Promise.all(imagePromises);
-      console.log("All images loaded successfully!");
-      setAllImagesReady(false);
-    } catch (error) {
-      // console.error('Error loading images:', error);
-      setAllImagesReady(false);
-    }
-  };
-
-  useEffect(() => {
-    loadImages();
-  }, []); //
-
-  return allImagesReady ? (
-    <Loader />
-  ) : isLoading ? (
-    <Preloader />
+  return isLoading ? (
+    <Suspense fallback={<Loader />}>
+      <Preloader />
+    </Suspense>
   ) : (
     <>
       <Component {...pageProps} />

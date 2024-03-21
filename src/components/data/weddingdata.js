@@ -632,10 +632,10 @@ export const weddingData = [
   },
     
   {
-    coupleName: "William & Amanda",
+    coupleName: "Alex & Lucie",
     location: "Paris, France",
     theme: "orange",
-    slug: "william-and-amanda",
+    slug: "alex-and-lucie",
     images: [
       {
         src: "https://images.unsplash.com/photo-1616000998296-850f44b39352?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

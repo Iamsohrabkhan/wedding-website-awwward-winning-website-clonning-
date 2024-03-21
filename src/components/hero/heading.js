@@ -59,7 +59,7 @@ const Heading = ({ changeUrl, themeSwitcher }) => {
         animate="visible"
         exit="exit"
       >
-        <audio ref={audioRef} src="click.mp3"></audio>
+        <audio className="invisible" ref={audioRef} src="click.mp3"></audio>
         <Text delay={0.1}>Hello I&apos;m, Elena, an Italian wedding</Text>
         <Text
           delay={0.25}

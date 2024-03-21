@@ -29,9 +29,6 @@ const Wedding = () => {
   // }
 
   const animationStart = async () => {
-    // imgControl.set("hidden");
-    // textControl.set("hidden");
-
     animate([
       [
         ".wedding-img",
@@ -64,6 +61,7 @@ const Wedding = () => {
     ]);
   };
   useEffect(() => {
+    
     animationStart();
   }, []);
 
@@ -77,6 +75,26 @@ const Wedding = () => {
         nextWedding(),
       ]);
     await animationStart();
+  };
+
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = async () => {
+    if (!clicked) {
+      // If not already clicked, set clicked to true
+      setClicked(true);
+
+      // Call your function
+      await nextSlide();
+
+      // Reset clicked after a brief delay (adjust as needed)
+      setTimeout(() => {
+        setClicked(false);
+      }, 500); // 500 milliseconds delay
+    }
+  };
+  const handleDoubleClick = () => {
+    // Do nothing on double-click
   };
 
   return (
@@ -126,7 +144,8 @@ const Wedding = () => {
               <motion.button
                 className=" wedding-btn wedding-btn--2  bg-white p-3 rounded-2xl 
                  text-primary  group overflow-hidden duration-200 ease-springy transition-all hover:!scale-110"
-                onClick={nextSlide}
+                onClick={handleClick}
+                onDoubleClick={handleDoubleClick}
                 initial={{
                   scale: 0,
                   opacity: 0,
