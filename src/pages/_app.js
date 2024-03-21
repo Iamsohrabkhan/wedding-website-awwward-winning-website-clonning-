@@ -25,26 +25,26 @@ export default function App({ Component, pageProps }) {
         description="Elena, an Italian wedding photographer, skillfully intertwines raw emotions with mesmerizing landscapes in her captivating photography"
         canonical="https://wedding-tempalate-mu.vercel.app/"
         openGraph={{
-          url: "/opengraph-image.png",
+          url: "https://i.ibb.co/P9541VY/opengraph-image.png",
           title: "Capturing Raw Emotions Against Captivating Landscapes",
           description: "Discover the magic of Elena's Italian wedding photography, where raw emotions meet captivating landscapes, creating timeless memories.",
           images: [
             {
-              url: "opengraph-image.png",
+              url: "https://i.ibb.co/P9541VY/opengraph-image.png",
               width: 800,
               height: 600,
               alt: "Og Image Alt",
               type: "image/png",
             },
             {
-              url: "opengraph-image.png",
+              url: "https://i.ibb.co/P9541VY/opengraph-image.png",
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
               type: "image/png",
             },
-            { url: "opengraph-image.png" },
-            { url: "opengraph-image.png" },
+            { url: "https://i.ibb.co/P9541VY/opengraph-image.png" },
+            { url: "https://i.ibb.co/P9541VY/opengraph-image.png" },
           ],
           siteName: "Wedding Gularmine",
         }}
@@ -88,6 +88,7 @@ const Main = ({ Component, pageProps }) => {
         img.src = imageUrl;
       });
     });
+      console.log("🚀 ~ imagePromises ~ imageUrl:", imageUrl)
 
     try {
       await Promise.all(imagePromises);

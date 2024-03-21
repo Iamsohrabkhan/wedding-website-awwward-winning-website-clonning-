@@ -13,7 +13,7 @@ const Heading = ({ changeUrl, themeSwitcher }) => {
 
   const playSound = () => {
     const audio = audioRef.current;
-    audio.currentTime = 0.6; // Start from the beginning
+    audio.currentTime = 0; // Start from the beginning
     audio.play();
   };
 
