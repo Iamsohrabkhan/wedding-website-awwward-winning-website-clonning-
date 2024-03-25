@@ -61,7 +61,6 @@ const Wedding = () => {
     ]);
   };
   useEffect(() => {
-    
     animationStart();
   }, []);
 
@@ -100,6 +99,7 @@ const Wedding = () => {
   return (
     <AnimatePresence>
       <div
+        key={`${currentTheme} ${nextTheme} ${Math.random()}`}
         className={`bg-secondary w-screen h-screen absolute  -z-10 ${currentTheme}  `}
       />
       <motion.div
@@ -113,7 +113,7 @@ const Wedding = () => {
             transition: {
               // type: "spring",
               duration: 0.7,
-              delay:0.2
+              delay: 0.2,
             },
           },
         }}
@@ -128,7 +128,7 @@ const Wedding = () => {
 
       {
         <motion.div
-          key={Math.random()}
+        key={`${currentTheme} ${nextTheme} ${Math.random()}`}
           className={`parent absolute w-screen h-screen  ${currentWedding?.theme}           
      
           `}
@@ -276,6 +276,8 @@ const AnimatedPictures = ({ imgControl, currentWedding }) => {
           alt={currentWedding?.images[1].alt}
           src={currentWedding?.images[1].src}
           fill
+          
+
           className="object-cover object-center bg-white/80 backdrop-blur-sm p-1.5"
         />
         /
@@ -331,6 +333,7 @@ const AnimatedPictures = ({ imgControl, currentWedding }) => {
           src={currentWedding?.images[2].src}
           alt={currentWedding?.images[2].src}
           fill
+          priority
           className="object-cover object-center bg-white/80 backdrop-blur-sm p-1.5"
         />
         /
@@ -377,6 +380,7 @@ const AnimatedPictures = ({ imgControl, currentWedding }) => {
             // src={img3}
             alt={currentWedding?.images[0].alt}
             fill
+            priority
             className="absolute object-center object-cover bg-white/80 backdrop-blur-sm p-1.5"
           />
         </motion.div>

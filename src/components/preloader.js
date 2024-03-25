@@ -7,11 +7,6 @@ import { LoaderImages } from "./data/loaderImages";
 const Preleader = () => {
   const {
     setIsLoading,
-    onLoadCallBack1,
-    onLoadCallBack2,
-    onLoadCallBack3,
-    onLoadCallBack4,
-    onLoadCallBack5,
   } = useAppContext();
   const [scope, animate] = useAnimate();
 
@@ -82,31 +77,31 @@ const Preleader = () => {
             src={LoaderImages[0]?.src}
             alt={LoaderImages[0]?.alt}
             className="img1 scale-0 absolute"
-            onLoad={onLoadCallBack1}
+            priority={true}
           />
           <Picture
             src={LoaderImages[1]?.src}
             alt={LoaderImages[1]?.alt}
             className="img2 scale-0 absolute"
-            onLoad={onLoadCallBack2}
+            priority={true}
           />
           <Picture
             src={LoaderImages[2]?.src}
             alt={LoaderImages[2]?.alt}
             className="img3 scale-0 absolute"
-            onLoad={onLoadCallBack3}
+            priority={true}
           />
           <Picture
             src={LoaderImages[3]?.src}
             alt={LoaderImages[3]?.alt}
             className="img4 scale-0 absolute"
-            onLoad={onLoadCallBack4}
+            priority={true}
           />
           <Picture
             src={LoaderImages[4]?.src}
             alt={LoaderImages[4]?.alt}
             className="img5 scale-0 absolute"
-            onLoad={onLoadCallBack5}
+            priority={true}
           />
         </div>
       </div>
