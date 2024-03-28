@@ -10,7 +10,6 @@ import { useRouter } from "next/router";
 import { stagger } from "framer-motion";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import Button from "../button";
 import Navbar from "../Navbar";
 
 const Hero = () => {
@@ -71,7 +70,7 @@ const Hero = () => {
     <section
       ref={ref}
       className={`relative flex  justify-center light      
-       items-center h-screen w-full      
+       items-center h-svh w-full      
       `}
     >
       <Navbar />

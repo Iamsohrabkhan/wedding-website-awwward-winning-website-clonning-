@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div className="grid h-screen w-full place-content-center bg-secondary light">
+    <div className="grid h-svh w-full place-content-center bg-secondary light">
       <BarLoader />
     </div>
   );
@@ -35,11 +35,11 @@ const BarLoader = () => {
       animate="animate"
       className="flex gap-1"
     >
-      <motion.div variants={variants} className="h-12 w-2 bg-primary" />
-      <motion.div variants={variants} className="h-12 w-2 bg-primary" />
-      <motion.div variants={variants} className="h-12 w-2 bg-primary" />
-      <motion.div variants={variants} className="h-12 w-2 bg-primary" />
-      <motion.div variants={variants} className="h-12 w-2 bg-primary" />
+      <motion.div variants={variants} className="h-8 md:h-12 w-2 bg-primary" />
+      <motion.div variants={variants} className="h-8 md:h-12 w-2 bg-primary" />
+      <motion.div variants={variants} className="h-8 md:h-12 w-2 bg-primary" />
+      <motion.div variants={variants} className="h-8 md:h-12 w-2 bg-primary" />
+      <motion.div variants={variants} className="h-8 md:h-12 w-2 bg-primary" />
     </motion.div>
   );
 };

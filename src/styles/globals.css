@@ -12,10 +12,10 @@ body {
 }
 
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
-/** {
+/* * {
   scrollbar-width: thin;
   scrollbar-color: #397524 #F2FDFF;
-}*/
+} */
 
 /* Chrome, Edge and Safari */
 *::-webkit-scrollbar {

@@ -1,16 +1,12 @@
 import { ContextProvider, useAppContext } from "@/App-Context/context";
-import Navbar from "@/components/Navbar";
 import TailwindIndicator from "@/components/TailwindIndicator";
 import "@/styles/globals.css";
-import { Lora } from "next/font/google";
 import Preloader from "@/components/preloader";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense } from "react";
 import { DataProvider } from "@/App-Context/datafilter";
 import localFont from "next/font/local";
 import { NextSeo } from "next-seo";
-import { motion } from "framer-motion";
 import Loader from "@/components/loader";
-import { LoaderImagesSrc } from "@/components/data/loaderImages";
 
 const cyrene = localFont({
   src: "../../public/cyrene-regular.woff2",
@@ -59,7 +55,7 @@ export default function App({ Component, pageProps }) {
       <ContextProvider>
         <DataProvider>
           <main
-            className={` ${cyrene.className}  min-h-screen w-screen relative overflow-hidden select-none`}
+            className={` ${cyrene.className}  min-h-svh w-screen relative overflow-hidden select-none`}
           >
             <Main Component={Component} pageProps={pageProps} />
           </main>
@@ -83,3 +79,5 @@ const Main = ({ Component, pageProps }) => {
     </>
   );
 };
+
+
