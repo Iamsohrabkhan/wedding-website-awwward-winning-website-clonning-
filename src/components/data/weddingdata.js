@@ -505,131 +505,131 @@ export const weddingData = [
   },
 
 
-  {
-    coupleName: "William & Amanda",
-    location: "Paris, France",
-    theme: "purple",
-    slug: "william-and-amanda",
-    images: [
-      {
-        src: "https://images.unsplash.com/photo-1616000998296-850f44b39352?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        alt: "John and Emily at their wedding",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1616000998794-91703e0a6be1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        alt: "John and Emily smiling together",
-      },
-      {
-        src: "https://images.unsplash.com/photo-1616000998707-c9ef059d3ea4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        alt: "John and Emily posing for a photo",
-      },
-    ],
-    sections: [
-      {
-        heading: "Get Ready",
-        images: [
-          {
-            src: "https://images.unsplash.com/photo-1616000998657-a2182b277f64?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily at their wedding",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1616000998707-c9ef059d3ea4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily smiling together",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1616387094047-8e3ae15a3b48?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          // Add more images for this section if needed
-        ],
-      },
-      {
-        heading: "Ceremony",
-        images: [
-          {
-            src: "https://images.unsplash.com/photo-1616387093990-9bffc910bc2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily smiling together",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1616387093827-084cd37715f2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1570907870057-e1e338bc0665?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1571394111091-d3edac39a32b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1627580358573-ea0c4a2cb199?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          },
-        ],
-      },
-      {
-        heading: "Just Married",
-        images: [
-          {
-            src: "https://images.unsplash.com/photo-1551890946-3e5446d3a71b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1542036813441-fc9a620d539d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1425421543490-6a133856ff32?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1579119113817-12b7f99dd4b1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1585241920473-b472eb9ffbae?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1531345802813-520a6c892aef?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
+  // {
+  //   coupleName: "William & Amanda",
+  //   location: "Paris, France",
+  //   theme: "purple",
+  //   slug: "william-and-amanda",
+  //   images: [
+  //     {
+  //       src: "https://images.unsplash.com/photo-1616000998296-850f44b39352?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       alt: "John and Emily at their wedding",
+  //     },
+  //     {
+  //       src: "https://images.unsplash.com/photo-1616000998794-91703e0a6be1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       alt: "John and Emily smiling together",
+  //     },
+  //     {
+  //       src: "https://images.unsplash.com/photo-1616000998707-c9ef059d3ea4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       alt: "John and Emily posing for a photo",
+  //     },
+  //   ],
+  //   sections: [
+  //     {
+  //       heading: "Get Ready",
+  //       images: [
+  //         {
+  //           src: "https://images.unsplash.com/photo-1616000998657-a2182b277f64?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily at their wedding",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1616000998707-c9ef059d3ea4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily smiling together",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1616387094047-8e3ae15a3b48?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         // Add more images for this section if needed
+  //       ],
+  //     },
+  //     {
+  //       heading: "Ceremony",
+  //       images: [
+  //         {
+  //           src: "https://images.unsplash.com/photo-1616387093990-9bffc910bc2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily smiling together",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1616387093827-084cd37715f2?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1570907870057-e1e338bc0665?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1571394111091-d3edac39a32b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1627580358573-ea0c4a2cb199?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Just Married",
+  //       images: [
+  //         {
+  //           src: "https://images.unsplash.com/photo-1551890946-3e5446d3a71b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1542036813441-fc9a620d539d?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1425421543490-6a133856ff32?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1579119113817-12b7f99dd4b1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1585241920473-b472eb9ffbae?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1531345802813-520a6c892aef?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
           
-        ],
+  //       ],
         
-      },
-      {
-        heading:"Cocktail",
-        images: [
-          {
-            src: "https://images.unsplash.com/photo-1675811144248-c3b829caf088?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1504993945773-3f38e1b6a626?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily posing for a photo",
-          },        
+  //     },
+  //     {
+  //       heading:"Cocktail",
+  //       images: [
+  //         {
+  //           src: "https://images.unsplash.com/photo-1675811144248-c3b829caf088?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1504993945773-3f38e1b6a626?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily posing for a photo",
+  //         },        
 
-        ],  
-      },
-      {
-        contact:[
-          {
-            src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily smiling together",
-          },
-          {
-            src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            alt: "John and Emily smiling together",
-          }
-        ]
-      }
-    ],
-  },
+  //       ],  
+  //     },
+  //     {
+  //       contact:[
+  //         {
+  //           src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily smiling together",
+  //         },
+  //         {
+  //           src: "https://images.unsplash.com/photo-1608326670856-e3b41eecb106?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //           alt: "John and Emily smiling together",
+  //         }
+  //       ]
+  //     }
+  //   ],
+  // },
     
   {
     coupleName: "Alex & Lucie",
